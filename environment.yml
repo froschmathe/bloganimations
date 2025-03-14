@@ -1,7 +1,19 @@
-name: j_manim
+name: manim-environment
 channels:
+  - conda-forge
   - defaults
 dependencies:
+  - python=3.9
+  - pip=21.0
+  - cairo
+  - pango
   - ffmpeg
+  - pycairo
+  - numpy
+  - scipy
+  - pillow
+  - jupyter
+  - notebook
   - pip:
-    - jupyter-manim
+    - manim
+    - ipywidgets
