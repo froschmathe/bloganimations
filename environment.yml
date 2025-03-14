@@ -1,0 +1,7 @@
+name: j_manim
+channels:
+  - defaults
+dependencies:
+  - ffmpeg
+  - pip:
+    - jupyter-manim
